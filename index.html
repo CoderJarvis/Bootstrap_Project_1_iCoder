@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>iCoder</title>
+</head>
+
+
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">iCoder</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html"><strong>Home</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="technology.html">Technologies</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Languages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">JAVA</a></li>
+                  <li><a class="dropdown-item" href="#">Python</a></li>
+                 
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                  <li><a class="dropdown-item" href="#">C++</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" tabindex="-1" >Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button type="button" class="btn btn-outline-warning mx-2" data-bs-toggle="modal" data-bs-target="#loginmodal">Login</button>
+              <button type="button" class="btn btn-outline-warning "data-bs-toggle="modal" data-bs-target="#signupmodal">Signup</button>
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <div class="modal fade" id="loginmodal" tabindex="-1" aria-labelledby="loginmodalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                 
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+      
+
+      <div class="modal fade" id="signupmodal" tabindex="-1" aria-labelledby="signupmodalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Enter your Name</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <label for="exampleInputEmail1" class="form-label">Enter your Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <label for="exampleInputEmail1" class="form-label">Enter your Phone Number</label>
+                  <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                 
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Enter a  Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Varify your Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+           
+                <button type="submit" class="btn btn-primary">Sign up</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>      
+
+
+
+
+
+      <div id="carouselExampleCaptions" class="carousel slide carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="bgi1.jpg" class="img-fluid">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="color: rgb(255, 0, 106); font-weight: bold;"><strong>Welcome to iCoder</strong></h1>
+            
+              <button type="button" class="btn btn-danger">Android Dev</button>
+              <button type="button" class="btn btn-primary">Web Dev</button>
+              <button type="button" class="btn btn-success">Cloud Computing</button>
+              <button type="button" class="btn btn-info">Machine Learning</button>
+              <button type="button" class="btn btn-warning">Artificial Intelligence</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="bgi2.jpg" class="img-fluid">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="color: rgb(255, 0, 106); font-weight: bold;"><strong>Technology is the future</strong></h1>
+              
+              <button type="button" class="btn btn-danger">Android Dev</button>
+              <button type="button" class="btn btn-primary">Web Dev</button>
+              <button type="button" class="btn btn-success">Cloud Computing</button>
+              <button type="button" class="btn btn-info">Machine Learning</button>
+              <button type="button" class="btn btn-warning">Artificial Intelligence</button>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="bgi3.jpg" class="img-fluid">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="color: rgb(255, 0, 106); font-weight: bold;"><strong>World depends on Technologyy</strong></h1>
+              
+              <button type="button" class="btn btn-danger">Android Dev</button>
+              <button type="button" class="btn btn-primary">Web Dev</button>
+              <button type="button" class="btn btn-success">Cloud Computing</button>
+              <button type="button" class="btn btn-info">Machine Learning</button>
+              <button type="button" class="btn btn-warning">Artificial Intelligence</button>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+     
+
+
+
+
+     <div class="container my-4">
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">Programing language</strong>
+              <h3 class="mb-0 text-danger"><strong>Python</strong></h3>
+              
+              <p class="card-text mb-auto"><em><strong>Python is an interpreted high-level general-purpose programming language</strong></em></p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="h1.jpg" alt="" class="bd-placeholder-img img-fluid" width="200" height="250">
+    
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Web language</strong>
+              <h3 class="mb-0 text-danger"><strong>JavaScript</strong></h3>
+             
+              <p class="mb-auto"><em><strong>programming language used both on the client-side and server-side that allows you to make web pages interactive</strong></em></p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="h2.png" alt="" class="bd-placeholder-img img-fluid" width="200" height="250">
+    
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">developer language</strong>
+              <h3 class="mb-0 text-danger"><strong>JAVA</strong></h3>
+              
+              <p class="card-text mb-auto"><em><strong>Java is a high-level, class-based, object-oriented programming language</strong></em></p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="h3.png" alt="" class="bd-placeholder-img img-fluid" width="200" height="250">
+    
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Frontend frameword</strong>
+              <h3 class="mb-0 text-danger"><strong>Angular JS</strong></h3>
+             
+              <p class="mb-auto"><em><strong>AngularJS is a JavaScript-based open-source front-end web framework for developing single-page applications</strong></em></p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="h4.png" alt="" class="bd-placeholder-img img-fluid" width="200" height="250">
+    
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">Backend framework</strong>
+              <h3 class="mb-0 text-danger"><strong>Django</strong></h3>
+              
+              <p class="card-text mb-auto"><em><strong>Django is a Python-based free and open-source web framework that follows the model–template–views architectural pattern</strong></em></p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="h5.jpg" alt="" class="bd-placeholder-img img-fluid" width="200" height="250">
+    
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">CSS Framework</strong>
+              <h3 class="mb-0 text-danger"><strong>Bootstrap</strong></h3>
+             
+              <p class="mb-auto"><em><strong>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</strong></em></p>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="h6.jpg" alt="" class="bd-placeholder-img img-fluid" width="200" height="550">
+    
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+     </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
